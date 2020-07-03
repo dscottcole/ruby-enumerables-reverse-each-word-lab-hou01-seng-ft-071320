@@ -13,4 +13,5 @@ def reverse_each_word(sentence)
   arry.collect {|i| yrra.push(i.reverse) }  
   yrra_string2 = yrra.join(" ")
   yrra_string2
+  binding.pry
 end
